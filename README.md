@@ -51,3 +51,26 @@ This portfolio demonstrates:
 - CI/CD automation with GitHub Actions  
 - Clear structure and professional documentation
 
+## Kubernetes Project
+
+This project demonstrates a simple Kubernetes deployment using Minikube.
+
+### Nginx Deployment
+- Deployed 2 replicas of Nginx using a Deployment.
+- Exposed the application using a NodePort Service.
+
+### Screenshots
+
+**1. Nginx running in browser:**  
+![Nginx Page](screenshots/k8-nginx-page.png)
+
+**2. Cluster status (pods + service):**  
+![Cluster Status](screenshots/k8-cluster-status.png)
+
+### Commands used
+```bash
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+kubectl get pods
+kubectl get svc
+minikube service nginx-service --url
