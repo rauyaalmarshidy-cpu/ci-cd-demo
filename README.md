@@ -1,59 +1,53 @@
-# DevOps Portfolio – Terraform & CI/CD
+# Cloud & DevOps Portfolio
 
-This project demonstrates hands-on DevOps skills using Terraform, AWS, and GitHub Actions.
-It shows how to provision infrastructure using Infrastructure as Code (IaC) and automate
-testing and validation using a CI/CD pipeline.
+This portfolio demonstrates hands-on experience with **Terraform**, **AWS**, and **CI/CD using GitHub Actions**.  
+
+It showcases my skills in building cloud infrastructure, automating workflows, and documenting projects professionally.
 
 ---
 
-## Technologies Used
+## 🚀 Technologies Used
 - Terraform
-- AWS EC2
-- GitHub Actions
+- AWS (EC2)
+- GitHub Actions (CI/CD)
 - Linux
-- Git
+- Git & GitHub
 
 ---
 
-## Terraform Infrastructure
+## 🏗️ Terraform Project
 
-This project uses Terraform to create and manage AWS infrastructure using separate
-environment folders (dev and prod).
+This project demonstrates provisioning cloud resources using Terraform with a clear and modular structure.
 
-### Project Structure
-Below is the Terraform project structure used in this portfolio:
+### Terraform Structure
+![Terraform Structure](screenshots/terraform-structure.png)
 
-![Terraform Project Structure](terraform/terraform-project-structure.png)
-
----
-
-## AWS Resources
-
-An EC2 instance was created using Terraform.  
-The screenshot below shows the instance details from the AWS Console.
-
-![AWS EC2 Instance](aws/aws-ec2-instance.png)
+### AWS EC2 Instance
+![AWS EC2 Instance](screenshots/aws-ec2-instance.png)
 
 ---
 
-## CI/CD Pipeline (GitHub Actions)
+## 🔄 CI/CD Pipeline (GitHub Actions)
 
-A CI pipeline was implemented using GitHub Actions to automatically validate Terraform
-code on every push.
+Automation using GitHub Actions to streamline deployment and validation.
 
-### CI/CD Evidence
-The following screenshots show the CI/CD pipeline in action:
+### CI Success
+![CI Success](screenshots/ci-github-actions-success.png)
 
-![CI README Preview](ci/ci-readme-preview.png)
-![CI Workflow Logs](ci/ci-workflow-logs.png)
-![CI Pipeline Success](ci/ci-github-actions-success.png)
+### Workflow Logs
+![Workflow Logs](screenshots/ci-workflow-logs.png)
+
+### README Preview
+![README Preview](screenshots/ci-readme-preview.png)
 
 ---
 
-## What This Project Demonstrates
-- Infrastructure provisioning using Terraform
-- Environment separation (dev and prod)
-- AWS EC2 management
-- CI/CD automation with GitHub Actions
-- Clean project organization and documentation
->>>>>>> ae4bb28 (Initial DevOps portfolio with Terraform and CI/CD)
+## ✅ Summary
+
+This portfolio demonstrates:
+
+- Infrastructure as Code using Terraform  
+- Provisioning cloud resources on AWS  
+- CI/CD automation with GitHub Actions  
+- Clear structure and professional documentation
+
