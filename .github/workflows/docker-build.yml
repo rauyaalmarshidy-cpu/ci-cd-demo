@@ -1,3 +1,4 @@
+
 name: Docker Build
 
 on:
@@ -5,29 +6,27 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout the entire repo
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: main
 
-      # 2️⃣ Log in to Docker Hub
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
           username: rauya2252
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
-      # 3️⃣ Build the Docker image from the docker-demo folder
       - name: Build Docker image
         run: docker build -t rauya2252/docker-demo:1.0 ./docker-demo
 
-      # 4️⃣ Push the Docker image
       - name: Push Docker image
         run: docker push rauya2252/docker-demo:1.0
-
