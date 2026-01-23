@@ -1,0 +1,26 @@
+name: Docker Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: rauya2252
+          password: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+      - name: Build Docker image
+        run: docker build -t rauya2252/docker-demo:1.0 ./docker-demo
+
+      - name: Push Docker image
+        run: docker push rauya2252/docker-demo:1.0
