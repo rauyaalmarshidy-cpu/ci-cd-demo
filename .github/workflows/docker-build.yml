@@ -24,3 +24,4 @@ jobs:
 
       - name: Push Docker image
         run: docker push rauya2252/docker-demo:1.0
+
