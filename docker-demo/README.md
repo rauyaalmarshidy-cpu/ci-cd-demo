@@ -1,5 +1,8 @@
 # Docker Demo Project
 
+![Docker Local](../portfolio-screenshots/docker-nginx-localhost.png)
+![GitHub Actions](../portfolio-screenshots/github-actions-docker-success.png)
+
 This project demonstrates containerizing a simple application using Docker, building a Docker image, running it locally, and automating its build and push to Docker Hub using GitHub Actions.
 
 ## Project Overview
