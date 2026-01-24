@@ -1,6 +1,6 @@
 # Cloud & DevOps Portfolio
 
-This portfolio demonstrates hands-on experience with **Terraform**, **AWS**, and **CI/CD using GitHub Actions**.  
+This portfolio demonstrates hands-on experience with **Terraform**, **AWS**, **Kubernetes**, **Docker**, and **CI/CD using GitHub Actions**.  
 
 It showcases my skills in building cloud infrastructure, automating workflows, and documenting projects professionally.
 
@@ -9,6 +9,8 @@ It showcases my skills in building cloud infrastructure, automating workflows, a
 ## 🚀 Technologies Used
 - Terraform
 - AWS (EC2)
+- Kubernetes (Minikube)
+- Docker
 - GitHub Actions (CI/CD)
 - Linux
 - Git & GitHub
@@ -42,42 +44,6 @@ Automation using GitHub Actions to streamline deployment and validation.
 
 ---
 
-## ✅ Summary
-
-This portfolio demonstrates:
-
-- Infrastructure as Code using Terraform  
-- Provisioning cloud resources on AWS  
-- CI/CD automation with GitHub Actions  
-- Clear structure and professional documentation
-
-## Kubernetes Project
-
-This project demonstrates a simple Kubernetes deployment using Minikube.
-
-### Nginx Deployment
-- Deployed 2 replicas of Nginx using a Deployment.
-- Exposed the application using a NodePort Service.
-
-### Screenshots
-
-**1. Nginx running in browser:**  
-![Nginx Page](screenshots/k8-nginx-page.png)
-
-**2. Cluster status (pods + service):**  
-![Cluster Status](screenshots/k8-cluster-status.png)
-
-### Commands used
-```bash
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl get pods
-kubectl get svc
-minikube service nginx-service --url
-
-
----
-
 ## 🐳 Docker Project
 
 This project demonstrates containerizing an Nginx web server using Docker and automating the build with GitHub Actions.
@@ -89,4 +55,32 @@ This project demonstrates containerizing an Nginx web server using Docker and au
 ![GitHub Actions Success](screenshots/github-actions-docker-success.png)
 
 ---
+
+## 🧩 Kubernetes Project
+
+This project demonstrates a simple Kubernetes deployment using Minikube.
+
+### Nginx Deployment
+- Deployed 2 replicas of Nginx using a Deployment.
+- Exposed the application using a NodePort Service.
+
+### Screenshots
+
+**1. Nginx running in browser:**
+![Nginx Page](screenshots/k8-nginx-page.png)
+
+**2. Cluster status (pods + service):**
+![Cluster Status](screenshots/k8-cluster-status.png)
+
+---
+
+## ✅ Summary
+
+This portfolio demonstrates:
+- Infrastructure as Code using Terraform
+- Provisioning cloud resources on AWS
+- Docker containerization with local verification
+- CI/CD automation using GitHub Actions
+- Kubernetes deployment using Minikube
+- Clear structure and professional documentation
 
