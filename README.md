@@ -76,29 +76,17 @@ kubectl get svc
 minikube service nginx-service --url
 
 
-## Docker Project
+---
+
+## 🐳 Docker Project
 
 This project demonstrates containerizing an Nginx web server using Docker and automating the build with GitHub Actions.
 
-### Nginx Container
-- Created a Dockerfile for an Nginx application.
-- Built the Docker image locally.
-- Ran the container and verified it through the browser.
-
-### CI with GitHub Actions
-- Configured a GitHub Actions workflow to build the Docker image.
-- Verified successful pipeline execution.
-
-### Screenshots
-
-**1. Nginx running locally in browser:**
+### Nginx Container Running Locally
 ![Docker Nginx](screenshots/docker-nginx-localhost.png)
 
-**2. GitHub Actions Docker build success:**
+### GitHub Actions Docker Build Success
 ![GitHub Actions Success](screenshots/github-actions-docker-success.png)
 
-### Commands used
-```bash
-docker build -t nginx-app .
-docker run -p 8080:80 nginx-app
+---
 
