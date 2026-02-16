@@ -6,7 +6,7 @@ It showcases my skills in building cloud infrastructure, automating workflows, a
 
 ---
 
-## 🚀 Technologies Used
+## Technologies Used
 - Terraform
 - AWS (EC2)
 - Kubernetes (Minikube)
@@ -17,7 +17,7 @@ It showcases my skills in building cloud infrastructure, automating workflows, a
 
 ---
 
-## 🏗️ Terraform Project
+##Terraform Project
 
 This project demonstrates provisioning cloud resources using Terraform with a clear and modular structure.
 
@@ -29,7 +29,7 @@ This project demonstrates provisioning cloud resources using Terraform with a cl
 
 ---
 
-## 🔄 CI/CD Pipeline (GitHub Actions)
+## CI/CD Pipeline (GitHub Actions)
 
 Automation using GitHub Actions to streamline deployment and validation.
 
@@ -44,7 +44,7 @@ Automation using GitHub Actions to streamline deployment and validation.
 
 ---
 
-## 🐳 Docker Project
+## Docker Project
 
 This project demonstrates containerizing an Nginx web server using Docker and automating the build with GitHub Actions.
 
@@ -56,7 +56,7 @@ This project demonstrates containerizing an Nginx web server using Docker and au
 
 ---
 
-## 🧩 Kubernetes Project
+## Kubernetes Project
 
 This project demonstrates a simple Kubernetes deployment using Minikube.
 
@@ -74,7 +74,7 @@ This project demonstrates a simple Kubernetes deployment using Minikube.
 
 ---
 
-## ✅ Summary
+## Summary
 
 This portfolio demonstrates:
 - Infrastructure as Code using Terraform
